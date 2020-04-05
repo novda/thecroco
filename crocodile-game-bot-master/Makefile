@@ -32,7 +32,7 @@ migrate-down:
 		'postgres://postgres:password@localhost:5432/postgres?sslmode=disable' down 1
 
 run:
-	go run pkg
+	go run .
 
 build:
 	go build -a \
