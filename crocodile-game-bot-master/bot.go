@@ -248,7 +248,7 @@ func main() {
 	mp.Capacity = 10000
 
 	settings := tb.Settings{
-		Token:   os.Getenv("994471804:AAFDpXRx_b1jfJ0acWAH3cLMsu0gRIOeEvQ"),
+		Token:   os.Getenv("CROCODILE_GAME_BOT_TOKEN"),
 		Poller:  mp,
 		Updates: 10000,
 	}
